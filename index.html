@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Important for responsiveness -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Atithi Restro</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="/images/logo.png" type="image/x-icon"> 
+    </head>
+    
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="logo">
+            <h1>Atithi Restro</h1> <!-- Replace with your logo -->
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#special-item">Special Item</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Side Scrolling Container -->
+    <div class="scroll-container">
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="hero-content">
+                <h2>Welcome to Atithi Restro</h2>
+<p>At Atithi Restro, we invite you to indulge in a culinary journey that celebrates both tradition and innovation. Nestled in the heart of the city, our restaurant offers a warm and welcoming atmosphere where the rich flavors of classic dishes meet contemporary culinary techniques.</p>
+
+<p>Our menu is thoughtfully curated to bring you the finest ingredients, artfully prepared by our expert chefs. Whether you're savoring a time-honored family recipe or trying one of our modern signature dishes, every bite promises an unforgettable experience.</p>
+
+<p>We believe in more than just serving food – we craft experiences. From intimate dinners to festive celebrations, Atithi Restro is the perfect place to create cherished memories. Our attentive staff ensures impeccable service, making every visit a special one.</p>
+
+<p>Join us and discover why Atithi Restro is the town’s favorite destination for food lovers. We look forward to serving you!</p>
+
+                <a href="#contact-us" class="btn-reserve">Reserve a Table</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/heroimage.jpg" alt="Hero Image"> <!-- Placeholder image -->
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section menu-section">
+            <h2>Our Menu</h2>
+            <div class="menu-container">
+                <div class="menu-category">
+                    <h3>Starters</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dish</th>
+                                <th>Description</th>
+                                <th>Price (₹)</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bruschetta</td>
+                                <td>Toasted bread with tomatoes and basil</td>
+                                <td>99</td>
+                                <td><button class="add-to-cart" data-name="Bruschetta" data-price="699">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Garlic Bread</td>
+                                <td>Crispy garlic-flavored bread</td>
+                                <td>129</td>
+                                <td><button class="add-to-cart" data-name="Garlic Bread" data-price="499">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Caprese Salad</td>
+                                <td>Tomatoes, mozzarella, and basil</td>
+                                <td>190</td>
+                                <td><button class="add-to-cart" data-name="Caprese Salad" data-price="799">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Stuffed Mushrooms</td>
+                                <td>Mushrooms filled with cheese and herbs</td>
+                                <td>149</td>
+                                <td><button class="add-to-cart" data-name="Stuffed Mushrooms" data-price="749">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Chicken Wings</td>
+                                <td>Spicy and tangy chicken wings</td>
+                                <td>399</td>
+                                <td><button class="add-to-cart" data-name="Chicken Wings" data-price="899">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Onion Rings</td>
+                                <td>Crispy fried onion rings</td>
+                                <td>199</td>
+                                <td><button class="add-to-cart" data-name="Onion Rings" data-price="599">Add to Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="menu-category">
+                    <h3>Main Course</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dish</th>
+                                <th>Description</th>
+                                <th>Price (₹)</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Grilled Salmon</td>
+                                <td>Perfectly grilled salmon fillet</td>
+                                <td>499</td>
+                                <td><button class="add-to-cart" data-name="Grilled Salmon" data-price="1899">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Spaghetti Carbonara</td>
+                                <td>Pasta with creamy carbonara sauce</td>
+                                <td>250</td>
+                                <td><button class="add-to-cart" data-name="Spaghetti Carbonara" data-price="1450">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Vegetable Stir Fry</td>
+                                <td>Assorted vegetables in a savory sauce</td>
+                                <td>399</td>
+                                <td><button class="add-to-cart" data-name="Vegetable Stir Fry" data-price="1299">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Butter Chicken</td>
+                                <td>Tender chicken in a rich butter sauce</td>
+                                <td>650</td>
+                                <td><button class="add-to-cart" data-name="Butter Chicken" data-price="1650">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Grilled Chicken Breast</td>
+                                <td>Juicy grilled chicken breast</td>
+                                <td>499</td>
+                                <td><button class="add-to-cart" data-name="Grilled Chicken Breast" data-price="1599">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Fish Curry</td>
+                                <td>Spicy and flavorful fish curry</td>
+                                <td>399</td>
+                                <td><button class="add-to-cart" data-name="Fish Curry" data-price="1799">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Paneer Tikka Masala</td>
+                                <td>Paneer cubes in a spicy masala sauce</td>
+                                <td>250</td>
+                                <td><button class="add-to-cart" data-name="Paneer Tikka Masala" data-price="1475">Add to Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="menu-category">
+                    <h3>Desserts</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dish</th>
+                                <th>Description</th>
+                                <th>Price (₹)</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Tiramisu</td>
+                                <td>Classic Italian coffee-flavored dessert</td>
+                                <td>150</td>
+                                <td><button class="add-to-cart" data-name="Tiramisu" data-price="850">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Chocolate Lava Cake</td>
+                                <td>Rich chocolate cake with molten center</td>
+                                <td>300</td>
+                                <td><button class="add-to-cart" data-name="Chocolate Lava Cake" data-price="900">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Cheesecake</td>
+                                <td>Creamy cheesecake with a graham cracker crust</td>
+                                <td>699</td>
+                                <td><button class="add-to-cart" data-name="Cheesecake" data-price="775">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Gulab Jamun per piece</td>
+                                <td>Sweet Indian milk dumplings in syrup</td>
+                                <td>30</td>
+                                <td><button class="add-to-cart" data-name="Gulab Jamun" data-price="650">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Ice Cream Sundae</td>
+                                <td>Ice cream topped with chocolate sauce and nuts</td>
+                                <td>125</td>
+                                <td><button class="add-to-cart" data-name="Ice Cream Sundae" data-price="725">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Fruit Tart</td>
+                                <td>Crispy tart filled with custard and fresh fruits</td>
+                                <td>100</td>
+                                <td><button class="add-to-cart" data-name="Fruit Tart" data-price="800">Add to Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="menu-category">
+                    <h3>Drinks</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Drink</th>
+                                <th>Description</th>
+                                <th>Price (₹)</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cappuccino</td>
+                                <td>Coffee with steamed milk and foam</td>
+                                <td>250</td>
+                                <td><button class="add-to-cart" data-name="Cappuccino" data-price="450">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Mojito</td>
+                                <td>Refreshing mint and lime cocktail</td>
+                                <td>80</td>
+                                <td><button class="add-to-cart" data-name="Mojito" data-price="675">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Fresh Orange Juice</td>
+                                <td>Freshly squeezed orange juice</td>
+                                <td>50</td>
+                                <td><button class="add-to-cart" data-name="Fresh Orange Juice" data-price="500">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Herbal Tea</td>
+                                <td>Calming herbal tea blend</td>
+                                <td>50</td>
+                                <td><button class="add-to-cart" data-name="Herbal Tea" data-price="350">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Mango Lassi</td>
+                                <td>Yogurt-based mango drink</td>
+                                <td>40</td>
+                                <td><button class="add-to-cart" data-name="Mango Lassi" data-price="425">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Iced Latte</td>
+                                <td>Coffee with cold milk and ice</td>
+                                <td>75</td>
+                                <td><button class="add-to-cart" data-name="Iced Latte" data-price="475">Add to Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Soft Drinks</td>
+                                <td>Various carbonated beverages</td>
+                                <td>50</td>
+                                <td><button class="add-to-cart" data-name="Soft Drinks" data-price="250">Add to Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section about-section">
+            <h1>About Us</h1>
+            <b><p>At Atithi Restro, we are passionate about offering an exceptional dining experience that combines the essence of tradition with a modern touch. Our chefs craft every dish with the finest, freshest ingredients, ensuring that each meal is a feast for the senses.</p>
+            
+            <p>With a menu that balances classic favorites and innovative creations, we aim to delight your palate and create unforgettable culinary moments. Whether you're joining us for a cozy dinner or a special occasion, Atithi Restro promises a warm, welcoming ambiance and top-notch service.</p>
+            
+            <p>Our mission is simple: to provide food that not only nourishes but inspires. We invite you to be a part of our journey, where every meal is more than just a dining experience—it's a celebration of flavor, tradition, and creativity.</p></b>
+            
+            <img src="/images/About Us.jpg" alt="About Us Image"> <!-- Placeholder image -->
+        </section>
+
+        <!-- Special Item Section -->
+        <section id="special-item" class="section special-item-section">
+            <h1>Special Item of the week</h1>
+            <div class="special-item">
+                <img src="/images/Special Food.jpg" alt="Special Item"> <!-- Placeholder image -->
+                <div class="special-item-info">
+                    <h2>Deluxe Seafood Platter</h2>
+                    <p>Indulge in a sumptuous array of the ocean's finest offerings with our Deluxe Seafood Platter. This exquisite selection features the freshest catches sourced daily, including succulent lobster tails, plump shrimp, tender calamari, and delicate scallops, all expertly prepared to perfection.</p>
+
+                    <p>Served with an as sortment of gourmet sauces and accompaniments, each element of the platter is designed to tantalize your taste buds and provide a memorable dining experience. Whether you're a seafood connoisseur or exploring new flavors, this platter promises a delightful culinary journey.</p>
+
+                    <p>Pair it with a glass of fine wine from our curated list to elevate your meal. At Atithi Restro, we take pride in delivering not just a dish, but an experience that celebrates the bounty of the sea.</p>
+
+                    <p>Price: ₹899</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-us" class="contact-us">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-message" class="form-message"></div>
+        </section>
+        
+    </div>
+    <div class="cart-section">
+        <h2>Cart</h2>
+        <div id="cart-items">Your cart is empty.</div>
+        <button id="checkout-button">Checkout</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
